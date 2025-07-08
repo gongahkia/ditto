@@ -4,8 +4,8 @@
 
 ## Stack
 
-* *Script*: [Rust]()
-* *Package*: [Docker]()
+* *Script*: [Rust](https://www.rust-lang.org/), [Bash](https://www.gnu.org/s/bash/)
+* *Package*: [Docker](https://www.docker.com/)
 
 ## Usage
 
