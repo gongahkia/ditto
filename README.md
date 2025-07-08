@@ -2,9 +2,7 @@
 
 # `Ditto`
 
-A simple [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8) Emulator.
-
-Made to practise [this stack](#stack).
+A simple [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8) Emulator made to practise [this stack](#stack).
 
 ## Stack
 
