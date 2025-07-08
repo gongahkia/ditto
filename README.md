@@ -8,6 +8,7 @@ A simple [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8) Emulator made to practis
 
 * *Script*: [Rust](https://www.rust-lang.org/), [Bash](https://www.gnu.org/s/bash/)
 * *Package*: [Docker](https://www.docker.com/)
+* *CI/CD*: [Github Actions](https://github.com/features/actions)
 
 ## Usage
 
