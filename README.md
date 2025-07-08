@@ -33,5 +33,5 @@ $
 The name `Ditto` is in reference to [Ditto](https://bulbapedia.bulbagarden.net/wiki/Ditto_(Pok%C3%A9mon)) (also known as [Metamon](https://en.wikipedia.org/wiki/Ditto_(Pok%C3%A9mon)) メタモン), a [Normal](https://bulbapedia.bulbagarden.net/wiki/Normal_(type))-type [Generation I](https://bulbapedia.bulbagarden.net/wiki/Generation_I) [Pokémon](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_(species)) able to [breed](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_breeding) with most other Pokémon.
 
 <div align="center">
-    <img src="./asset/logo/ditto.png" width="75%">
+    <img src="./asset/logo/ditto.png" width="50%">
 </div>
