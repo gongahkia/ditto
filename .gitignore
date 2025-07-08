@@ -1,1 +1,9 @@
 /target
+**/*.rs.bk
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.ch8
+*.bin
