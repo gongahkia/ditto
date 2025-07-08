@@ -40,6 +40,35 @@ $ docker run --rm -it chip8-ditto test
 ## Architecture
 
 ```mermaid
+graph TD
+    A[main.rs] -->|Initializes| B[Chip8 Struct]
+    B --> C[CPU cpu.rs]
+    B --> D[Display display.rs]
+    B --> E[Keypad keypad.rs]
+    B --> F[Memory memory.rs]
+    B --> G[Timers timers.rs]
+
+    C -->|Fetches/Executes| F
+    C -->|Draws Sprites| D
+    C -->|Reads Input| E
+    C -->|Updates Timers| G
+
+    F -->|Loads Fontset/ROM| H[assets/fontset.bin & src/roms/]
+    D -->|Renders| I[Window minifb]
+    E -->|Maps Keys| I
+    G -->|Delay/Sound| C
+
+    subgraph Tests & Utilities
+        J[tests/]
+        K[utils.rs]
+    end
+
+    J --> B
+    K --> B
+
+    subgraph Assets & ROMs
+        H
+    end
 ```
 
 ## Reference
@@ -52,10 +81,9 @@ The name `Ditto` is in reference to [Ditto](https://bulbapedia.bulbagarden.net/w
 
 ## Research
 
-* [**]()
-* [**]()
-* [**]()
-* [**]()
-* [**]()
-* [**]()
-* [**]()
+* [*Guide to making a CHIP-8 emulator*](https://tobiasvl.github.io/blog/write-a-chip-8-emulator/) by Tobias V Langhoff
+* [*Building a CHIP-8 Emulator [C++]*](https://austinmorlan.com/posts/chip8_emulator/) by Austin Morlan
+* [*How to Create Your Very Own Chip-8 Emulator*](https://www.freecodecamp.org/news/creating-your-very-own-chip-8-emulator/) by freeCodeCamp
+* [*Writing a Chip-8 Emulator from Scratch in JavaScript*](https://www.taniarascia.com/writing-an-emulator-in-javascript-chip8/) by tania.dev
+* [*Building a Chip-8 Emulator in Go*](https://medium.com/@bradford_hamilton/building-a-chip-8-emulator-in-go-9f137ec5d71c) by Bradford Lamson-Scribner
+* [*CHIP-8 interpreters*](https://emulation.gametechwiki.com/index.php/CHIP-8_interpreters) by Emulation General Wiki
