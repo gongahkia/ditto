@@ -1,4 +1,5 @@
 [![](https://img.shields.io/badge/ditto_1.0.0-passing-green)](https://github.com/gongahkia/ditto/releases/tag/1.0.0) 
+[![](https://img.shields.io/badge/ditto_2.0.0-passing-light_green)](https://github.com/gongahkia/ditto/releases/tag/2.0.0) 
 
 # `Ditto`
 
@@ -6,6 +7,7 @@ A simple [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8) Emulator made to practis
 
 ## Stack
 
+* *Frontend*: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [WebAssembly](https://www.rust-lang.org/what/wasm)
 * *Script*: [Rust](https://www.rust-lang.org/), [Bash](https://www.gnu.org/s/bash/)
 * *Package*: [Docker](https://www.docker.com/)
 * *CI/CD*: [Github Actions](https://github.com/features/actions)
