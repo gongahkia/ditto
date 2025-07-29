@@ -7,7 +7,7 @@ A simple [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8) Emulator made to practis
 
 ## Stack
 
-* *Frontend*: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [WebAssembly](https://www.rust-lang.org/what/wasm)
+* *Frontend*: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), [WebAssembly](https://www.rust-lang.org/what/wasm), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * *Script*: [Rust](https://www.rust-lang.org/), [Bash](https://www.gnu.org/s/bash/)
 * *Package*: [Docker](https://www.docker.com/)
 * *CI/CD*: [Github Actions](https://github.com/features/actions)
