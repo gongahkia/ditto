@@ -40,6 +40,13 @@ $ docker run --rm -it chip8-ditto
 $ docker run --rm -it chip8-ditto test
 ```
 
+5. Alternatively run the below to run the `Ditto` [Web App](./web/) on a local server.
+
+```console
+$ npm install -g http-server && cd web
+$ http-server -p 8080
+```
+
 ## Architecture
 
 ```mermaid
