@@ -1,4 +1,5 @@
 [![](https://img.shields.io/badge/ditto_1.0.0-passing-green)](https://github.com/gongahkia/ditto/releases/tag/1.0.0) 
+[![](https://img.shields.io/badge/ditto_2.0.0-passing-light_green)](https://github.com/gongahkia/ditto/releases/tag/2.0.0) 
 
 # `Ditto`
 
@@ -6,6 +7,7 @@ A simple [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8) Emulator made to practis
 
 ## Stack
 
+* *Frontend*: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), [WebAssembly](https://www.rust-lang.org/what/wasm), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * *Script*: [Rust](https://www.rust-lang.org/), [Bash](https://www.gnu.org/s/bash/)
 * *Package*: [Docker](https://www.docker.com/)
 * *CI/CD*: [Github Actions](https://github.com/features/actions)
@@ -36,6 +38,13 @@ $ docker run --rm -it chip8-ditto
 
 ```console
 $ docker run --rm -it chip8-ditto test
+```
+
+5. Alternatively run the below to run the `Ditto` [Web App](./web/) on a local server.
+
+```console
+$ npm install -g http-server && cd web
+$ http-server -p 8080
 ```
 
 ## Architecture
