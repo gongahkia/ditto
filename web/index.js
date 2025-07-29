@@ -1,4 +1,4 @@
-import init, { WasmChip8 } from '../pkg/your_crate_name.js'; 
+import init, { WasmChip8 } from '../pkg/ditto.js'; 
 
 const SCREEN_WIDTH = 64;
 const SCREEN_HEIGHT = 32;
