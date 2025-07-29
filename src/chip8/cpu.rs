@@ -154,7 +154,7 @@ impl Cpu {
                 let x = ((opcode & 0x0F00) >> 8) as usize;
                 let nn = (opcode & 0x00FF) as u8;
                 let mut rng = rand::thread_rng();
-                self.v[x] = rng.gen::<u8>() & nn;
+                self.v[x] = rng.r#gen::<u8>() & nn;
                 self.pc += 2;
             }
             0xD000 => {
