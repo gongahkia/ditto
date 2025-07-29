@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ditto</title>
+  <style>
+    body { background: #222; color: #fefefe; font-family: sans-serif; text-align: center; }
+    canvas { background: #000; margin: 1em auto; display: block; }
+    #romLoader { margin: 1em 0; }
+  </style>
+</head>
+<body>
+  <h1>Simple CHIP-8 Emulator</h1>
+  <p>Made with ❤️ by <a href="https://gabrielongzm.com/">Gabriel Ong</a>.</p>
+  <input id="romLoader" type="file" accept=".ch8,.rom,.bin"/>
+  <div>
+    <canvas id="chip8-canvas" width="64" height="32"></canvas>
+  </div>
+  <script type="module" src="index.js"></script>
+</body>
+</html>
